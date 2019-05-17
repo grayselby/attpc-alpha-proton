@@ -20,6 +20,5 @@ def eventarrays_to_png(image_data_filepath, png_filepath_dont_include_png):
         plt.savefig(png_filepath_dont_include_png+str(i+1)+'.png', format='PNG')
 
 if __name__ == '__main__':
-    #example:
-    #eventarrays_to_png('new_hit_method_thresh50_images.h5',
-    #    '/home/selby/attpc-alpha-alpha/newMethodThresh50/eventthresh50')
+    eventarrays_to_png('new_hit_method_thresh50_images.h5',
+        '/home/selby/attpc-alpha-alpha/newMethodThresh50/eventthresh50')
