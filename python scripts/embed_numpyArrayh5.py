@@ -33,6 +33,5 @@ def imbed_image_data(image_data_filepath, number_of_events,
             imbedded.write('\t'.join(data) + '\n')
 
 if __name__ == '__main__':
-    #example:
-    #imbed_image_data('new_hit_method_thresh50_images.h5', 74, 50,
-    #    'new_hit_method_thresh50_embedded.tsv')
+    imbed_image_data('new_hit_method_thresh50_images.h5', 74, 50,
+        'new_hit_method_thresh50_embedded.tsv')
