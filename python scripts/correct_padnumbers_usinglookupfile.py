@@ -75,5 +75,5 @@ def correct_padnumbers(lookuptable_filepath, run_filepath, corrected_filepath):
     h5.close()
 
 if __name__ == '__main__':
-    #example:
-    #correct_padnumbers('flatlookup.csv', 'run_0210.h5', 'corrected_run_0210.h5')
+    example:
+    correct_padnumbers('flatlookup.csv', 'run_0210.h5', 'corrected_run_0210.h5')
