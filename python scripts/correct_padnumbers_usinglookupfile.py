@@ -56,6 +56,8 @@ def correct_padnumbers(lookuptable_filepath, run_filepath, corrected_filepath):
 
     print('Getting correct pad numbers...')
 
+    
+    # !!! Brute force/inefficient !!!
     #for each event (denoted by i) and for each lookuparrayfirst4col pad number (denoted by j) compare the lookuparrayfirst4col
     # values against the dataarrayeventfirst4col value (event denoted by i and pad number denoted by k)
     for event in range(NUMBEROFEVENTS):
