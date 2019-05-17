@@ -145,5 +145,4 @@ def real_unlabeled_events(projection, save_path, prefix):
     h5.close()
 
 if __name__ == '__main__':
-    #example:
-    #real_unlabeled_events('xy','./','new_hit_method_thresh50_')
+    real_unlabeled_events('xy','./','new_hit_method_thresh50_')
